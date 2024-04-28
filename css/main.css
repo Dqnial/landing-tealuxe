@@ -321,6 +321,7 @@ ul {
 .join__inner-form-checkbox {
     display: flex;
     margin-top: 12px;
+    justify-content: space-around;
 }
 
 .join__inner-form-checkbox input {
