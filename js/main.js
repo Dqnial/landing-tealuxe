@@ -7,9 +7,11 @@ const modal = document.querySelector('.modal');
 menuBtn.addEventListener('click', ()=>{
     menuList.classList.toggle('menu__list--open');
     menuOpened.classList.toggle('modal');
+    document.body.classList.toggle('modal-open');
 } );
 
 menuClose.addEventListener('click', ()=>{
     menuList.classList.remove('menu__list--open');
     menuOpened.classList.remove('modal');
+    document.body.classList.remove('modal-open');
 } );
